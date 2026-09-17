@@ -408,33 +408,24 @@ footer.lp{background:var(--navy);color:#dbe1ee;margin-top:40px;}
       <h2 class="section-title">Votre étude peut démarrer aujourd'hui</h2>
       <p class="lead" style="margin:0 auto;">Créez votre compte en 30 secondes : vos accès sont ouverts immédiatement et vous pouvez lancer un premier dossier dans la foulée.</p>
     </div>
-    <div class="form-card">
-      <div id="form-step-1">
-        <p style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.3px;text-transform:uppercase;margin:0 0 6px;">Étape 1 sur 2</p>
-        <label>Nom complet</label><input placeholder="Jean Dupont">
-        <label>Email professionnel</label><input placeholder="jean.dupont@office.fr">
-        <a href="#" onclick="document.getElementById('form-step-1').style.display='none';document.getElementById('form-step-2').style.display='block';return false;" class="btn btn-navy" style="width:100%;justify-content:center;margin-top:20px;">Continuer &rarr;</a>
-        <p class="form-reassure">Sans engagement · 30 secondes suffisent</p>
-      </div>
-      <div id="form-step-2" style="display:none;">
-        <p style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.3px;text-transform:uppercase;margin:0 0 6px;">Étape 2 sur 2</p>
-        <label>Office notarial</label><input placeholder="Nom de l'office">
-        <label>Nombre de collaborateurs</label>
-        <select><option>5 à 10</option><option>11 à 20</option><option>21 à 30</option><option>Plus de 30</option></select>
-        <a href="#" class="btn btn-navy" style="width:100%;justify-content:center;margin-top:20px;">Démarrer mon abonnement &rarr;</a>
-        <p class="form-reassure">Sans engagement · Accès immédiat à votre espace professionnel</p>
-      </div>
+    <!-- Creer mon etude (C-02) : le parcours reel, dans l'application. L'ancien formulaire en
+         deux etapes ne transmettait rien et ne menait nulle part. -->
+    <div class="form-card" style="text-align:center;">
+      <p style="font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.3px;text-transform:uppercase;margin:0 0 6px;">Adresse professionnelle notariale</p>
+      <p style="margin:0 0 6px;">Votre compte s'ouvre avec une adresse en <strong>notaires.fr</strong> ou l'un de ses sous-domaines.</p>
+      <a href="https://beta.notacore.fr/creer-mon-etude" class="btn btn-navy" style="width:100%;justify-content:center;margin-top:20px;">Créer mon étude &rarr;</a>
+      <p class="form-reassure">Sans engagement · Confirmez votre adresse, puis accès immédiat à votre espace</p>
     </div>
     <div class="grid3" style="margin-top:30px;">
       <div class="card">
         <div class="icon-circle icon-purple" style="width:38px;height:38px;font-size:15px;border-radius:11px;">1</div>
         <h3 style="font-size:15px;">Vous créez votre compte</h3>
-        <p>Nom, email professionnel, office et nombre de collaborateurs : c'est tout.</p>
+        <p>Nom de l'étude, SIRET, adresse notariale et mot de passe : c'est tout.</p>
       </div>
       <div class="card">
         <div class="icon-circle icon-purple" style="width:38px;height:38px;font-size:15px;border-radius:11px;">2</div>
-        <h3 style="font-size:15px;">Vos accès sont ouverts</h3>
-        <p>Votre espace professionnel NOTACORE est disponible immédiatement, sans installation.</p>
+        <h3 style="font-size:15px;">Vous confirmez votre adresse</h3>
+        <p>Un lien arrive dans votre boîte notariale : votre espace NOTACORE s'ouvre aussitôt, sans installation.</p>
       </div>
       <div class="card">
         <div class="icon-circle icon-purple" style="width:38px;height:38px;font-size:15px;border-radius:11px;">3</div>
